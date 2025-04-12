@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/cloudy.png">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    {{>header}}
-    {{404}}
-    {{helpArticleError}}
+    <div class="main-content">
+        {{>header}}
+        <p>{{helpArticleError}}</p> 
+        <p>{{errorMessage}}</p>
+    </div>
+
     {{>footer}}
 </body>
 </html>

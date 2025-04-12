@@ -1,0 +1,5 @@
+const name = (name = "Yusuf", age) => {
+    console.log("Hello" , name);
+}
+
+name('',34)
