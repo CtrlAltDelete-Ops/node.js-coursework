@@ -19,7 +19,7 @@ const partialsPath = path.join(__dirname, "../templates/partials");
 //setup express middleware for static files
 app.use(express.static(publicDirectoryPath));
 
-//set upp dynamic template handling
+//set up dynamic template handling
 app.set("view engine", "hbs");
 app.set("views", viewsPath);
 hbs.registerPartials(partialsPath);

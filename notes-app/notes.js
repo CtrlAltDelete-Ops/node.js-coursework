@@ -15,7 +15,6 @@ const addNote = (title, body) => {
     } else {
         console.log(chalk.red.inverse('Title already exists!'));
     }
-
 }
 
 const saveNote = (notes) => {
